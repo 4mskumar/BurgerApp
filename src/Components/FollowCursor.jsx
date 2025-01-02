@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-constFollowCursor = () => {
+const FollowCursor = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [elementPosition, setElementPosition] = useState({ x: 0, y: 0 });
 
